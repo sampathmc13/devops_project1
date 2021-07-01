@@ -44,7 +44,7 @@
                                 <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
                                     class="icon-bar"></span><span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="${contextPath}/index">VISUAL PATH</a>
+                            <a class="navbar-brand" href="${contextPath}/index">SAMPATH</a>
                             <i class="brand_network"><small><small>VProfile</small></small></i>
                         </div>
                         <div class="navbar-collapse collapse">
@@ -75,7 +75,7 @@
 		<img  class="logo" src="${contextPath}/resources/Images/visualpathlogo3.png" />
         <div class="form-group ${error != null ? 'has-error' : ''}">
             <span>${message}</span>
-            <input name="username" type="text" class="form-control" placeholder="Username"/>
+            <input name="username" type="text" class="form-control" placeholder="Log In Name"/>
             <input name="password" type="password" class="form-control" placeholder="Password"/>
             <span>${error}</span>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
